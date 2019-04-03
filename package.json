@@ -1,0 +1,22 @@
+{
+  "name": "tours-website",
+  "version": "1.0.0",
+  "description": "Landing Page for Tours",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "node-sass sass/main.scss css/style.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hknakn/Tours-Website.git"
+  },
+  "author": "Hakan Akın",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hknakn/Tours-Website/issues"
+  },
+  "homepage": "https://github.com/hknakn/Tours-Website#readme",
+  "devDependencies": {
+    "node-sass": "^4.11.0"
+  }
+}
