@@ -42,6 +42,17 @@
         }
     }
 
+    &--green {
+        background-color: $color-primary;
+        color: $color-white;
+        margin-top: 6rem;
+        font-size: $default-font-size;
+
+        &::after {
+            background-color: $color-primary;
+        }
+    }
+
     &::after {
         content: "";
         display: inline-block;
